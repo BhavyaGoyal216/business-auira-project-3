@@ -1,0 +1,44 @@
+nav {
+  font-size: 14px;
+}
+
+header {
+  font-size: 12px;
+}
+
+.section-one {
+  font-size: 14px;
+}
+
+.section-four .contact-container .contact-input form #name {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-input form #number {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-input form #email {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-input form textarea {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-info .info-container .address {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-info .info-container .phoneno {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-info .info-container .email {
+  width: 30em;
+}
+
+.section-four .contact-container .contact-info .info-container .social {
+  width: 30em;
+}
+/*# sourceMappingURL=quarry.css.map */

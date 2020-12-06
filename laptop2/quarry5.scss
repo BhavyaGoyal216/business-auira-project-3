@@ -1,0 +1,31 @@
+nav {
+  font-size: 12px;
+}
+.logo a::before {
+  font-size: 12px;
+}
+header {
+  font-size: 10px;
+}
+.section-one {
+  font-size: 12px;
+
+  h3 {
+    font-size: 1.7em;
+  }
+}
+.section-two {
+  font-size: 12px;
+}
+.section-three {
+  font-size: 12px;
+}
+.section-four {
+  .contact-container {
+    .contact-info {
+      .info-container {
+        font-size: 10px;
+      }
+    }
+  }
+}

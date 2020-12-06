@@ -1,0 +1,965 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@600&display=swap");
+header {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url(/pexels-fauxels-3183165.jpg) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/pexels-fauxels-3183165.jpg) no-repeat center center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header .image {
+  height: 25em;
+  width: 25em;
+  margin-top: 4em;
+  -webkit-box-shadow: 3px 3px 15px 3px black;
+          box-shadow: 3px 3px 15px 3px black;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+header .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.85;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+header .aboutbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .aboutbutton .text {
+  color: #ffffff;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5em;
+  width: 25em;
+  text-align: center;
+}
+
+header .aboutbutton .weblink {
+  margin-bottom: 2em;
+}
+
+header .aboutbutton .weblink a {
+  color: #ffd400;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header .aboutbutton .mainbutton a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  background-color: #ee1078;
+  text-decoration: none;
+  height: 3.75em;
+  width: 10.625em;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+header .aboutbutton .mainbutton a:hover {
+  background-color: #c70861fa;
+}
+
+.section-one {
+  height: auto;
+  background-color: #ee1078;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 5em;
+}
+
+.section-one h3 {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2em;
+  margin-bottom: 01em;
+  width: 75%;
+  text-align: center;
+}
+
+.section-one .line {
+  border: 2px solid white;
+  width: 3.5em;
+}
+
+.section-one p {
+  color: #e6dbdb;
+  font-family: "Merriweather", serif;
+  opacity: 0.65;
+  font-size: 1.2em;
+  margin: 2em auto;
+  width: 60%;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.section-one a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  margin: 0.5em auto;
+  margin-bottom: 7em;
+  height: 3.75em;
+  width: 10.625em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  font-size: 0.8em;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-one a:hover {
+  background-color: rgba(241, 236, 236, 0.877);
+}
+
+.section-two {
+  height: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 4em;
+}
+
+.section-two h3 {
+  color: black;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  width: 50%;
+  text-align: center;
+}
+
+.section-two #upfront {
+  margin-top: 4em;
+}
+
+.section-two .line-two {
+  border: 2px solid #ee1078;
+  width: 3.5em;
+}
+
+.section-two p {
+  color: #535353;
+  font-family: "Merriweather", serif;
+  width: 70%;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.section-two .quotes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-two .quotes-container blockquote {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  -webkit-box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+          box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-two .quotes-container blockquote p {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 2em 2em;
+  padding: 0em;
+}
+
+.section-two .quotes-container #card-2,
+.section-two .quotes-container #card-4 {
+  background-color: #ee1078;
+}
+
+.section-two .quotes-container #card-2 p,
+.section-two .quotes-container #card-4 p {
+  color: white;
+}
+
+.section-two .quotes-container #card-4 {
+  margin-bottom: 7em;
+}
+
+.section-two .quotes-container .quot-cards::after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+  z-index: -1;
+}
+
+.section-two .quotes-container .quot-cards::before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+  z-index: -1;
+}
+
+.section-three {
+  height: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-three h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  text-decoration: underline;
+  color: #c70861fa;
+  cursor: pointer;
+}
+
+.section-three h1:hover {
+  color: #ee1078;
+}
+
+.section-three h3 {
+  color: black;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  width: 50%;
+  text-align: center;
+}
+
+.section-three #upfront {
+  margin-top: 4em;
+}
+
+.section-three .line-three {
+  border: 2px solid #ee1078;
+  width: 3.5em;
+}
+
+.section-three p {
+  color: #535353;
+  font-family: "Merriweather", serif;
+  width: 70%;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.section-three #para-sem {
+  padding-bottom: 4em;
+}
+
+.section-four {
+  height: auto;
+  background-color: #efefef;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-four h3 {
+  color: #777777;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.section-four .line-four {
+  border: 2px solid #ee1078;
+  width: 3.5em;
+  margin-bottom: 2em;
+}
+
+.section-four .contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-four .contact-container .contact-input {
+  margin: 2em;
+}
+
+.section-four .contact-container .contact-input form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-four .contact-container .contact-input form input {
+  margin: 0.5em 0em;
+}
+
+.section-four .contact-container .contact-input form #name {
+  border: none;
+  outline: none;
+  width: 40em;
+  height: 3em;
+  border-radius: 17px;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #name::-webkit-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #name:-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #name::-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #name::placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #number {
+  border: none;
+  outline: none;
+  width: 40em;
+  height: 3em;
+  border-radius: 17px;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #number::-webkit-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #number:-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #number::-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #number::placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #email {
+  border: none;
+  outline: none;
+  width: 40em;
+  height: 3em;
+  border-radius: 17px;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #email::-webkit-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #email:-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #email::-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form #email::placeholder {
+  font-size: 16px;
+  padding: 0em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form textarea {
+  border: none;
+  outline: none;
+  width: 40em;
+  border-radius: 17px;
+  margin: 0.5em 0em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form textarea::-webkit-input-placeholder {
+  font-size: 16px;
+  padding: 0.5em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form textarea:-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0.5em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form textarea::-ms-input-placeholder {
+  font-size: 16px;
+  padding: 0.5em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form textarea::placeholder {
+  font-size: 16px;
+  padding: 0.5em 1em;
+  font-family: "Merriweather", serif;
+}
+
+.section-four .contact-container .contact-input form input[type="button"] {
+  color: white;
+  background-color: #ee1078;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 3em;
+  width: 10em;
+  font-family: "Merriweather", serif;
+  margin-bottom: 2em;
+}
+
+.section-four .contact-container .contact-info {
+  margin: 2em;
+}
+
+.section-four .contact-container .contact-info .info-container {
+  font-size: 13.333px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.section-four .contact-container .contact-info .info-container .address {
+  display: inline-block;
+  border: none;
+  background-color: white;
+  width: 40em;
+  height: 4em;
+  border-radius: 17px;
+  margin: 0.5em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.section-four .contact-container .contact-info .info-container .address img {
+  height: 2em;
+  width: 2em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 1em;
+}
+
+.section-four .contact-container .contact-info .info-container .phoneno {
+  display: inline-block;
+  border: none;
+  background-color: white;
+  width: 40em;
+  height: 4em;
+  border-radius: 17px;
+  margin: 0.5em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.section-four .contact-container .contact-info .info-container .phoneno img {
+  height: 2em;
+  width: 2em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 1em;
+}
+
+.section-four .contact-container .contact-info .info-container .phoneno p {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  color: #777777;
+  font-size: 1.3em;
+}
+
+.section-four .contact-container .contact-info .info-container .email {
+  display: inline-block;
+  background-color: white;
+  border: none;
+  width: 40em;
+  height: 4em;
+  border-radius: 17px;
+  margin: 0.5em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.section-four .contact-container .contact-info .info-container .email img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 2em;
+  width: 2em;
+  padding-left: 1em;
+  padding-right: 0.3em;
+}
+
+.section-four .contact-container .contact-info .info-container .email #contact-email {
+  text-decoration: none;
+  color: #ee1078;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.section-four .contact-container .contact-info .info-container .email #contact-email:hover {
+  text-decoration: underline;
+}
+
+.section-four .contact-container .contact-info .info-container .social {
+  display: inline-block;
+  border: none;
+  background-color: white;
+  width: 40em;
+  height: 5em;
+  border-radius: 17px;
+  margin: 0.5em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.section-four .contact-container .contact-info .info-container .social p {
+  display: inline;
+  font-family: "Merriweather", serif;
+  padding-left: 1em;
+}
+
+.section-four .contact-container .contact-info .info-container .social a img {
+  height: 2.5em;
+  width: 2.5em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.7;
+  margin: 0em 0.5em;
+}
+
+.section-four .contact-container .contact-info .info-container .social a img:hover {
+  opacity: 1;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  --textcolor: rgb(206, 199, 199);
+  --background: transparent;
+  --text-invert: white;
+  height: 15vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: var(--background);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+nav .logo a {
+  text-decoration: none;
+}
+
+nav .logo a h1 {
+  color: var(--textcolor);
+  font-family: "Itim", cursive;
+  font-size: 1.7em;
+  position: relative;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  margin-left: 5.2em;
+}
+
+nav .logo a h1:hover {
+  color: var(--text-invert);
+}
+
+nav .hamburger {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: none;
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+}
+
+nav .hamburger span {
+  font-size: 2em;
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+
+nav .span-color {
+  color: white;
+}
+
+nav .nav ul {
+  list-style: none;
+  margin: 0em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .nav ul .nav-li {
+  margin: 0em 1em;
+  position: relative;
+}
+
+nav .nav ul .nav-li .nav-a {
+  color: var(--textcolor);
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+nav .nav ul .nav-li .nav-a:hover {
+  color: var(--text-invert);
+}
+
+.drop-box {
+  background-color: white;
+  position: absolute;
+  left: 0%;
+  height: auto;
+  width: 14em;
+  border-radius: 5px;
+  border: 0.5px solid #b4b3b3;
+  display: none;
+}
+
+.drop-box .drop-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.drop-box .drop-ul .drop-li {
+  margin: 0.5em 0em;
+  height: 2em;
+  width: 14em;
+}
+
+.drop-box .drop-ul .drop-li a {
+  color: #313030;
+  text-decoration: none;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: "Merriweather", serif;
+}
+
+.drop-box .drop-ul .drop-li a:hover {
+  color: #ee1078;
+}
+
+.drop-box .drop-ul .drop-li a:active {
+  color: #ee1078;
+}
+
+.display {
+  display: block;
+}
+
+.logo a::before {
+  content: "";
+  background: url(/121660776_2689451617971406_809313083802697891_n.jpg) no-repeat center center/cover;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: 7.5vh;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-left: 4.7em;
+}
+
+.nav-scroll {
+  --textcolor: #2e294e;
+  --background: #fff;
+  --text-invert: #d90368;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  height: 10vh;
+}
+
+footer p {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  font-family: "Merriweather", serif;
+  color: black;
+  opacity: 0.7;
+}
+/*# sourceMappingURL=style.css.map */

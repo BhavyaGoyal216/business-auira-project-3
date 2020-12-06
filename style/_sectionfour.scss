@@ -1,0 +1,203 @@
+.section-four {
+  height: auto;
+  background-color: #efefef;
+  // height: 100vh;
+  height: auto;
+  @include flexcenter(column);
+
+  h3 {
+    color: #777777;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  .line-four {
+    border: 2px solid $color1;
+    width: 3.5em;
+    margin-bottom: 2em;
+  }
+  .contact-container {
+    display: flex;
+
+    .contact-input {
+      margin: 2em;
+      form {
+        @include flexcenter(column);
+
+        input {
+          margin: 0.5em 0em;
+        }
+
+        #name {
+          border: none;
+          outline: none;
+          width: 40em;
+          height: 3em;
+          border-radius: 17px;
+          font-family: "Merriweather", serif;
+        }
+        #name::placeholder {
+          font-size: 16px;
+          padding: 0em 1em;
+          font-family: "Merriweather", serif;
+        }
+
+        #number {
+          border: none;
+          outline: none;
+          width: 40em;
+          height: 3em;
+          border-radius: 17px;
+          font-family: "Merriweather", serif;
+        }
+        #number::placeholder {
+          font-size: 16px;
+          padding: 0em 1em;
+          font-family: "Merriweather", serif;
+        }
+        #email {
+          border: none;
+          outline: none;
+          width: 40em;
+          height: 3em;
+          border-radius: 17px;
+          font-family: "Merriweather", serif;
+        }
+        #email::placeholder {
+          font-size: 16px;
+          padding: 0em 1em;
+          font-family: "Merriweather", serif;
+        }
+        textarea {
+          border: none;
+          outline: none;
+          width: 40em;
+          border-radius: 17px;
+          margin: 0.5em 0em;
+          font-family: "Merriweather", serif;
+        }
+        textarea::placeholder {
+          font-size: 16px;
+          padding: 0.5em 1em;
+          font-family: "Merriweather", serif;
+        }
+        input[type="button"] {
+          color: white;
+          background-color: $color1;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          height: 3em;
+          width: 10em;
+          font-family: "Merriweather", serif;
+          margin-bottom: 2em;
+        }
+      }
+    }
+    .contact-info {
+      margin: 2em;
+      .info-container {
+        font-size: 13.333px;
+        display: flex;
+        flex-flow: column;
+        .address {
+          display: inline-block;
+          border: none;
+          background-color: white;
+          width: 40em;
+          height: 4em;
+
+          border-radius: 17px;
+          margin: 0.5em 0em;
+          @include flexcenter(row);
+          justify-content: start;
+          img {
+            height: 2em;
+            width: 2em;
+            object-fit: cover;
+            padding-left: 1em;
+          }
+        }
+        .phoneno {
+          display: inline-block;
+          border: none;
+          background-color: white;
+          width: 40em;
+          height: 4em;
+          border-radius: 17px;
+          margin: 0.5em 0em;
+          @include flexcenter(row);
+          justify-content: start;
+          img {
+            height: 2em;
+            width: 2em;
+            object-fit: cover;
+            padding-left: 1em;
+            // padding-right: 0.3em;
+          }
+          p {
+            font-family: "Merriweather", serif;
+            font-weight: 600;
+            color: #777777;
+            font-size: 1.3em;
+          }
+        }
+        .email {
+          display: inline-block;
+          background-color: white;
+          border: none;
+          width: 40em;
+          height: 4em;
+          border-radius: 17px;
+          margin: 0.5em 0em;
+          @include flexcenter(row);
+          justify-content: start;
+          img {
+            object-fit: cover;
+            height: 2em;
+            width: 2em;
+            padding-left: 1em;
+            padding-right: 0.3em;
+          }
+          #contact-email {
+            text-decoration: none;
+            // width: 100%;
+            color: $color1;
+            font-size: 1.5em;
+            font-weight: 600;
+          }
+          #contact-email:hover {
+            text-decoration: underline;
+          }
+        }
+        .social {
+          display: inline-block;
+          border: none;
+          background-color: white;
+          width: 40em;
+          height: 5em;
+          border-radius: 17px;
+          margin: 0.5em 0em;
+          @include flexcenter(row);
+          justify-content: start;
+          p {
+            display: inline;
+            font-family: "Merriweather", serif;
+            padding-left: 1em;
+          }
+          a img {
+            height: 2.5em;
+            width: 2.5em;
+            object-fit: cover;
+            opacity: 0.7;
+            margin: 0em 0.5em;
+          }
+          a img:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

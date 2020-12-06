@@ -1,0 +1,45 @@
+nav {
+  font-size: 14px;
+}
+header {
+  font-size: 12px;
+}
+.section-one {
+  font-size: 14px;
+}
+.section-four {
+  .contact-container {
+    .contact-input {
+      form {
+        #name {
+          width: 30em;
+        }
+        #number {
+          width: 30em;
+        }
+        #email {
+          width: 30em;
+        }
+        textarea {
+          width: 30em;
+        }
+      }
+    }
+    .contact-info {
+      .info-container {
+        .address {
+          width: 30em;
+        }
+        .phoneno {
+          width: 30em;
+        }
+        .email {
+          width: 30em;
+        }
+        .social {
+          width: 30em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+nav {
+  font-size: 10px;
+}
+
+nav .logo a::before {
+  font-size: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.section-three h1 {
+  font-size: 1.7em;
+}
+
+header {
+  font-size: 8px;
+}
+
+header .aboutbutton .text {
+  font-size: 1.25em;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.section-two {
+  font-size: 10px;
+}
+
+.section-three {
+  font-size: 10px;
+}
+
+.section-four .contact-container .contact-info .info-container .email #contact-email {
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=quarry6.css.map */

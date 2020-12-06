@@ -1,0 +1,47 @@
+header {
+  font-size: 14px;
+}
+
+header .image {
+  display: none;
+}
+
+.section-four .contact-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-four .contact-container .contact-input form #name {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-input form #number {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-input form #email {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-input form textarea {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-info .info-container .address {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-info .info-container .phoneno {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-info .info-container .email {
+  width: 80vw;
+}
+
+.section-four .contact-container .contact-info .info-container .social {
+  width: 80vw;
+}
+/*# sourceMappingURL=quarry3.css.map */

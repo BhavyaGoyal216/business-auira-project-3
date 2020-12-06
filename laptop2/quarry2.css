@@ -1,0 +1,89 @@
+nav {
+  --textcolor: #2e294e;
+  --background: #fff;
+  --text-invert: #d90368;
+}
+
+nav .hamburger {
+  display: block;
+}
+
+nav .nav {
+  position: fixed;
+  top: 0%;
+  background-color: #ee1078;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: circle(100px at 100% -20%);
+          clip-path: circle(100px at 100% -20%);
+  pointer-events: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+nav .nav ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .nav ul .nav-li {
+  font-size: 2em;
+  margin: 1.4em 0em;
+}
+
+nav .nav ul .nav-li .nav-a {
+  color: white;
+}
+
+nav .nav ul .nav-li .nav-a:hover {
+  color: white;
+}
+
+.nav.nav-open {
+  pointer-events: all;
+  -webkit-clip-path: circle(900px at 100% -20%);
+          clip-path: circle(900px at 100% -20%);
+}
+
+.drop-box {
+  display: none;
+}
+
+header {
+  font-size: 10px;
+}
+
+.section-four .contact-container .contact-input form #name {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-input form #number {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-input form #email {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-input form textarea {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-info .info-container .address {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-info .info-container .phoneno {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-info .info-container .email {
+  width: 25em;
+}
+
+.section-four .contact-container .contact-info .info-container .social {
+  width: 25em;
+}
+/*# sourceMappingURL=quarry2.css.map */

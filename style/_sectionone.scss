@@ -1,0 +1,55 @@
+//  .......first section ...
+.section-one {
+  height: auto;
+  background-color: $color1;
+  @include flexcenter(column);
+  padding-top: 5em;
+
+  h3 {
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2em;
+    // margin-top: 2em;
+    margin-bottom: 01em;
+    width: 75%;
+    text-align: center;
+  }
+  .line {
+    border: 2px solid white;
+    width: 3.5em;
+  }
+  p {
+    color: rgb(230, 219, 219);
+    font-family: "Merriweather", serif;
+    opacity: 0.65;
+    font-size: 1.2em;
+    margin: 2em auto;
+    width: 60%;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  a {
+    display: flex;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0.5em auto;
+    margin-bottom: 7em;
+    // border: none;
+    height: 3.75em;
+    width: 10.625em;
+    // outline: none;
+    justify-content: center;
+    color: black;
+    font-size: 0.8em;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 600;
+    transition: all 300ms ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+  }
+  a:hover {
+    background-color: rgba(241, 236, 236, 0.877);
+  }
+}

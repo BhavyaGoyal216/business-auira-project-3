@@ -1,0 +1,44 @@
+header {
+  font-size: 14px;
+  .image {
+    display: none;
+  }
+}
+
+.section-four {
+  .contact-container {
+    flex-direction: column;
+    .contact-input {
+      form {
+        #name {
+          width: 80vw;
+        }
+        #number {
+          width: 80vw;
+        }
+        #email {
+          width: 80vw;
+        }
+        textarea {
+          width: 80vw;
+        }
+      }
+    }
+    .contact-info {
+      .info-container {
+        .address {
+          width: 80vw;
+        }
+        .phoneno {
+          width: 80vw;
+        }
+        .email {
+          width: 80vw;
+        }
+        .social {
+          width: 80vw;
+        }
+      }
+    }
+  }
+}

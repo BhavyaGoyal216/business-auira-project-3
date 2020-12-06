@@ -1,0 +1,48 @@
+// ......Thrid section .....
+.section-three {
+  height: auto;
+  background-color: white;
+  @include flexcenter(column);
+  h1 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+    color: $color2;
+    cursor: pointer;
+  }
+  h1:hover {
+    color: $color1;
+  }
+  h3 {
+    color: black;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+  }
+  #upfront {
+    margin-top: 4em;
+  }
+  .line-three {
+    border: 2px solid $color1;
+    width: 3.5em;
+  }
+
+  p {
+    color: rgb(83, 83, 83);
+    font-family: "Merriweather", serif;
+    width: 70%;
+    font-size: 1em;
+    // margin: 1em 10em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: justify;
+  }
+  #para-sem {
+    padding-bottom: 4em;
+  }
+}

@@ -1,0 +1,88 @@
+// ......second section .....
+.section-two {
+  height: auto;
+  background-color: white;
+  @include flexcenter(column);
+  padding-top: 4em;
+  h3 {
+    color: black;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+  }
+  #upfront {
+    margin-top: 4em;
+  }
+  .line-two {
+    border: 2px solid $color1;
+    width: 3.5em;
+  }
+
+  p {
+    color: rgb(83, 83, 83);
+    font-family: "Merriweather", serif;
+    width: 70%;
+    font-size: 1em;
+    // margin: 1em 10em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .quotes-container {
+    @include flexcenter(column);
+    blockquote {
+      // border: 2px solid black;
+      height: auto;
+      @include flexcenter(column);
+      width: 80%;
+      box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      p {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 2em 2em;
+        padding: 0em;
+      }
+    }
+
+    #card-2,
+    #card-4 {
+      background-color: $color1;
+      p {
+        color: white;
+      }
+    }
+    #card-4 {
+      margin-bottom: 7em;
+    }
+    .quot-cards::after {
+      font-family: Georgia, serif;
+      content: "”";
+      position: absolute;
+      bottom: -110px;
+      line-height: 100px;
+      right: -32px;
+      font-size: 25em;
+      color: rgba(238, 238, 238, 0.8);
+      font-weight: normal;
+      z-index: -1;
+    }
+    .quot-cards::before {
+      font-family: Georgia, serif;
+      content: "“";
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 5em;
+      color: rgba(238, 238, 238, 0.8);
+      font-weight: normal;
+      z-index: -1;
+    }
+  }
+}
